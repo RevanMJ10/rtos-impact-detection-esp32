@@ -74,10 +74,6 @@ Built as a practical exploration of real-time embedded design patterns: multi-ta
 ## Finite State Machine
 
 ```
-                      delta > IMPACT_THRESHOLD
-         ┌─────────────────────────────────────────┐
-         │                                         │
-         ▼                                         │
     ┌─────────┐   delta > THRESHOLD           ┌──────────┐
     │  IDLE   │ ─────────────────────────────▶│  IMPACT  │
     └─────────┘                               └──────────┘
